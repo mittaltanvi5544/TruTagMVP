@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Department Admin | TruTag</title><link rel="stylesheet" href="/style.css"><script src="/vendor/chart.js/chart.umd.js" defer></script><script src="/script.js" defer></script></head>
+<body class="dashboard-page">
+<header class="site-header"><a class="brand" href="/" aria-label="TruTag home"><img class="brand-logo" src="/images/trutag-logo.png" alt="TruTag — Trusted Labels. Safer India."></a><nav class="portal-nav"><a href="/">Home</a><a href="/inspector">Inspector</a><a href="/business-owner">Business Owner</a></nav></header>
+<main class="dashboard-main">
+  <div class="page-heading"><div><p class="eyebrow">Oversight &amp; governance</p><h1>Admin Department</h1><p class="intro">Manage inspectors, shop assignments, and inspection records.</p></div><span class="demo-chip">DEMO DATA</span></div>
+  <section class="metric-grid" id="admin-metrics"></section>
+  <section class="panel priority-panel" aria-labelledby="priority-title">
+    <div class="panel-heading"><div><h2 id="priority-title">Inspection Priority List</h2><p>Businesses ranked from recorded unresolved findings in completed inspection reports. Missing severity is shown as Needs data.</p></div></div>
+    <div class="table-scroll"><table><thead><tr><th>Priority Rank</th><th>Priority</th><th>Business / Shop Name</th><th>Business ID</th><th>Previous Inspector Name</th><th>Last Inspection Date</th><th>Previous Inspection Severity</th><th>Outstanding Violations</th><th>Follow-up Status</th><th>Reason for Priority</th><th>Recommended Inspection Action</th></tr></thead><tbody id="admin-priorities"></tbody></table></div>
+  </section>
+  <section class="panel activity-panel" aria-labelledby="activity-title">
+    <div class="panel-heading activity-heading"><div><h2 id="activity-title">Daily Inspection Activity</h2><p>Completed inspections by actual inspection date</p></div>
+      <label class="activity-range-label" for="activity-range">Date range<select id="activity-range" class="activity-range"><option value="7">Last 7 Days</option><option value="30">Last 30 Days</option><option value="90">Last 90 Days</option></select></label>
+    </div>
+    <div class="activity-chart-wrap"><canvas id="activity-chart" role="img" aria-label="Line graph of completed inspections per day"></canvas><p id="activity-chart-message" class="activity-chart-message" role="status" aria-live="polite"></p></div>
+  </section>
+  <div class="workspace-grid">
+    <section class="panel">
+      <div class="panel-heading"><div><h2>Inspectors</h2><p>Directory and account status</p></div></div>
+      <form id="add-inspector-form" class="compact-form"><label>Full name<input name="name" required placeholder="Inspector name"></label><label>Email<input name="email" type="email" required placeholder="name@example.demo"></label><label>Department<input name="department" required placeholder="Department"></label><label>Designation<input name="designation" required placeholder="Official designation"></label><label>Jurisdiction<input name="jurisdiction" required placeholder="District or area"></label><button class="button">Add inspector</button></form>
+      <div class="table-scroll"><table><thead><tr><th>Inspector</th><th>Department</th><th>Jurisdiction</th><th>Status</th><th></th></tr></thead><tbody id="admin-inspectors"></tbody></table></div>
+    </section>
+    <section class="panel">
+      <div class="panel-heading"><div><h2>Shops</h2><p>Shop directory and inspector assignment</p></div></div>
+      <form id="add-shop-form" class="compact-form"><label>Shop name<input name="name" required placeholder="Business name"></label><label>Owner<input name="owner" required placeholder="Owner name"></label><label>Category<input name="category" required placeholder="Business type"></label><label>Jurisdiction<input name="jurisdiction" required placeholder="District"></label><button class="button">Add shop</button></form>
+      <div class="table-scroll"><table><thead><tr><th>Shop</th><th>Jurisdiction</th><th>Assigned inspector</th></tr></thead><tbody id="admin-shops"></tbody></table></div>
+    </section>
+    <section class="panel panel-wide">
+      <div class="panel-heading"><div><h2>Inspection Reports</h2><p>Newest reports first. Each report is identified by its unique inspection ID.</p></div></div>
+      <div class="table-scroll"><table><thead><tr><th>Serial Number</th><th>Inspection ID</th><th>Inspector Name</th><th>Shop / Business Name</th><th>Inspection Date and Time</th><th>Inspection Status</th><th>View Report</th></tr></thead><tbody id="admin-inspections"></tbody></table></div>
+    </section>
+  </div>
+  <div class="toast" role="status" aria-live="polite"></div>
+</main><footer class="site-footer"><a href="/">← Back to TruTag home</a><span>Demonstration data only</span></footer>
+<dialog id="inspection-dialog" class="detail-dialog"><form method="dialog"><button class="dialog-close" aria-label="Close">×</button></form><div id="inspection-detail"></div></dialog>
+</body></html>

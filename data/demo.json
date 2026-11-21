@@ -1,0 +1,1682 @@
+{
+  "inspectors": [
+    {
+      "id": "INS-BF1783",
+      "name": "XYZ",
+      "email": "xyz@trutag.demo",
+      "department": "Food Safety",
+      "jurisdiction": "North District",
+      "status": "active"
+    },
+    {
+      "id": "INS-277086",
+      "name": "Tanvi Mittal",
+      "email": "tanvi@demo",
+      "department": "food safety",
+      "jurisdiction": "South",
+      "status": "active"
+    },
+    {
+      "id": "INS-1001",
+      "name": "Asha Rao",
+      "email": "asha.rao@trutag.demo",
+      "department": "Food Safety",
+      "jurisdiction": "North District",
+      "status": "active",
+      "passportToken": "GJA9vlBjP-zjZ-ulWVW-Ig7rWfIlY0zt83loCBM_7HM"
+    },
+    {
+      "id": "INS-1002",
+      "name": "Dev Patel",
+      "email": "dev.patel@trutag.demo",
+      "department": "Consumer Affairs",
+      "jurisdiction": "Central District",
+      "status": "active",
+      "passportToken": "HUbso7R53XrtXetCfq8cdGtXwWhNlqbnbNmt3NGmkGE"
+    },
+    {
+      "id": "INS-1003",
+      "name": "Mira Das",
+      "email": "mira.das@trutag.demo",
+      "department": "Food Safety",
+      "jurisdiction": "South District",
+      "status": "suspended"
+    }
+  ],
+  "shops": [
+    {
+      "id": "SHP-2001",
+      "name": "Green Basket Market",
+      "owner": "Ravi Kumar",
+      "category": "Grocery",
+      "jurisdiction": "North District",
+      "inspectorId": "INS-1001"
+    },
+    {
+      "id": "SHP-2002",
+      "name": "Harbor Street Cafe",
+      "owner": "Nina Joseph",
+      "category": "Food Service",
+      "jurisdiction": "Central District",
+      "inspectorId": "INS-1002"
+    },
+    {
+      "id": "SHP-2003",
+      "name": "Sunrise Fresh Foods",
+      "owner": "Arjun Mehta",
+      "category": "Fresh Produce & Grocery",
+      "jurisdiction": "North District",
+      "inspectorId": "INS-1001"
+    },
+    {
+      "id": "SHP-2004",
+      "name": "Hilltop Dairy",
+      "owner": "Leena Shah",
+      "category": "Dairy",
+      "jurisdiction": "South District",
+      "inspectorId": "INS-1003"
+    }
+  ],
+  "inspections": [
+    {
+      "id": "VIS-9CE98B",
+      "shopId": "SHP-2001",
+      "inspectorId": "INS-1001",
+      "date": "2026-11-21T12:56:48.256Z",
+      "status": "draft",
+      "violations": 0,
+      "summary": "Draft inspection",
+      "remarks": "",
+      "declarations": [
+        {
+          "id": "responsible-party",
+          "label": "Manufacturer / packer / importer",
+          "status": "Needs Review"
+        },
+        {
+          "id": "country-origin",
+          "label": "Country of origin",
+          "status": "Needs Review"
+        },
+        {
+          "id": "generic-name",
+          "label": "Generic name of the commodity",
+          "status": "Needs Review"
+        },
+        {
+          "id": "net-quantity",
+          "label": "Net quantity",
+          "status": "Needs Review"
+        },
+        {
+          "id": "manufacturing-date",
+          "label": "Manufacturing / packing / import date",
+          "status": "Needs Review"
+        },
+        {
+          "id": "best-before",
+          "label": "Best before / use by date",
+          "status": "Needs Review"
+        },
+        {
+          "id": "mrp",
+          "label": "Maximum retail price (MRP)",
+          "status": "Needs Review"
+        },
+        {
+          "id": "unit-sale-price",
+          "label": "Unit sale price",
+          "status": "Needs Review"
+        },
+        {
+          "id": "consumer-care",
+          "label": "Consumer care details",
+          "status": "Needs Review"
+        },
+        {
+          "id": "clarity",
+          "label": "Clarity and legibility of declarations",
+          "status": "Needs Review"
+        }
+      ],
+      "photos": [
+        {
+          "filename": "VIS-9CE98B-01482885.jpg",
+          "url": "/uploads/VIS-9CE98B-01482885.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ],
+      "qrToken": "e3_YBQTj0E9niKl0ReSXWc5l8JdnW-QV",
+      "qrExpiresAt": "2026-11-21T20:56:48.260Z",
+      "qrCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAADcCAYAAAAbWs+BAAAAAklEQVR4AewaftIAAAhISURBVO3BQY4kORIEQVMi//9l3bouEQc2GOldM2Mi+CNVNWKlqsasVNWYlaoas1JVY1aqasxKVY1ZqaoxK1U1ZqWqxqxU1ZhP/gCQ30jNDshvpOYEkFtq3gZkipodkN9IzYmVqhqzUlVjVqpqzEpVjVmpqjGfvEDNBCCn1NwA8kTNCSDfoOYUkBNqvkHNCSC31EwAcmOlqsasVNWYlaoas1JVYz75EiA31HwDkJ2aG0BOAXkbkBtAnqg5oeYUkJ2abwByQ83bVqpqzEpVjVmpqjErVTXmk38pIE/UvE3NDSA7NbfU3AByAsgTNfX/VqpqzEpVjVmpqjErVTVmparGfFIBslNzCsgNNTfUnAKyU3NKzduAPFHzb7NSVWNWqmrMSlWNWamqMZ98iZrfCMhOzQ7IEzU7NTeA7NQ8AXJKzQkgT9ScAPJEzU7NDsg3qPltVqpqzEpVjVmpqjErVTXmkxcA+adQswOyU/MEyE7NDsgTNW9T8wTITs0OyCkgOzVPgOzUfAOQf4KVqhqzUlVjVqpqzEpVjVmpqjGf/AE1/3RAJqh5AmSnZgfkbwNyQ83b1PyTrVTVmJWqGrNSVWNWqmrMJ38AyBM1N4Ds1OyA3FLzNiCn1JxQ8wTIDsgTNTfU3ACyU3MKyBQ1J4A8UXNiparGrFTVmJWqGrNSVWNWqmoM/sghIKfU7IA8UfM2IKfU7ICcUrMD8kTNDsgpNTsgN9RMAbJT8wTIKTU7IKfU7IDs1NxYqaoxK1U1ZqWqxqxU1ZhP/oCaU0B2ak4BuaHmFJBTav4mIDs1T4CcAPINam6o2QE5peYUkJ2at61U1ZiVqhqzUlVjVqpqDP7IISDfoOZtQJ6oOQHkiZodkFNqTgA5peYUkJ2aJ0B2at4G5ImaHZAnak4AuaHmxkpVjVmpqjErVTVmparGrFTVGPyRS0B2anZAnqjZATml5hSQnZpTQHZqTgG5oWYH5BvU7IDs1DwBslOzA/INanZAvkHNiZWqGrNSVWNWqmrMSlWNwR/5AiBvUzMFyCk1OyBP1OyA3FDzDUB2am4AOaXmBpBTak4AeaLmxEpVjVmpqjErVTVmparGfPICIDs1OyCn1OyA3FKzA7JTcwrIKSA7NaeAnALyT6DmCZCdmlNqdkCeANmp2am5sVJVY1aqasxKVY1ZqaoxK1U1Bn/kEJAnanZA3qZmCpBTanZAbqg5BeSJmh2QnZpTQHZqvgHI29Q8AXJCzY2VqhqzUlVjVqpqzEpVjcEf+QIgp9TsgJxSMwXICTWngOzU3AKyU/M2IE/U7IDs1DwBckrNCSCn1OyAPFFzYqWqxqxU1ZiVqhqzUlVj8EcOATmlZgfklJopQN6m5huAnFJzAsgTNSeAfIOaU0BOqHkC5ISaGytVNWalqsasVNWYlaoas1JVYz75A2pOAdmpeQJkB2SKmlNAbgDZqdkBmaLmCZAbanZAdmqeANmpeaLmbWretlJVY1aqasxKVY1Zqaox+CNDgDxRcwPIKTVvA/JfpuYJkJ2aG0BuqHkC5ISaGytVNWalqsasVNWYlaoas1JVYz55AZCdmhtATqnZAXkCZKfmbWpOAbmh5gmQt6mZAuSGmhtq3rZSVWNWqmrMSlWNWamqMZ/8ASCngLxNzSk1T4CcAPJEzU7N29TcUrMDMkXNDsgpNTeA7NQ8UbMDslNzY6WqxqxU1ZiVqhqzUlVjPvkDap4AuQFkp2YH5JaaHZC3AbkB5ImaU0B2ak4B2QE5pWYKkBNA/qaVqhqzUlVjVqpqzEpVjVmpqjGf/AEgN9Q8AXJCzSkgf5OaU0BOAXkbkCdqdkB2av4rgDxRc2KlqsasVNWYlaoas1JVYz75BdTsgNxQc0PNEyA31OzUnAKyU/MNQP4mIDfU7ICcUvO2laoas1JVY1aqasxKVY355BcAckLNN6jZAXmiZgfkBpCdmidqdkBuqHkC5ASQU2p2QG6p2QH5bVaqasxKVY1ZqaoxK1U1ZqWqxnzyB9R8g5oTQJ6omQLkt1HzBMgJIDfUnAJyQ80TIDfUTFipqjErVTVmparGrFTVGPyRLwCyU/MEyE7NDSBP1OyA3FDzNiCn1JwCslNzCshOzSkgp9TcALJT8wTITs0OyBM1J1aqasxKVY1ZqaoxK1U15pM/AOQGkCdqdkC+AchOzSkgN4Ds1OzUnALyGwG5AeTfZqWqxqxU1ZiVqhqzUlVjVqpqDP7IvxCQJ2p2QN6m5hSQU2reBuQb1JwA8kTNDSA7NU+A7NS8baWqxqxU1ZiVqhqzUlVjPvkDQH4jNaeATABySs0pIDs1p4DcUHMKyE7NDSBP1JwA8kTNhJWqGrNSVWNWqmrMSlWNWamqMZ+8QM0EIKfUnAKyU3MDyCkgOzVP1JwCckLNEyA31LxNzTcAOaHmxkpVjVmpqjErVTVmparGfPIlQG6ouQHkiZqdmh2QU2p2ap4AeRuQU2pOqfmbgLxNzRMgJ4A8UXNiparGrFTVmJWqGrNSVWM++ZdSc0PNN6g5AeSWmh2QU2pOADmlZqfmCZAbam6o2QG5sVJVY1aqasxKVY1ZqaoxK1U15pP/GCA31NwAslOzU/MEyA01p4Ds1OzU/G1qJqi5sVJVY1aqasxKVY1Zqaox+COHgDxRMwHIEzVvA/JfoeYUkJ2aG0BOqXkC5ISaJ0BOqLmxUlVjVqpqzEpVjVmpqjH4I4eA/EZqdkCeqNkBuaHmBpCdmm8AckPNKSAn1DwBslMzBcgpNSdWqmrMSlWNWamqMStVNWalqsbgj1TViJWqGrNSVWNWqmrMSlWNWamqMStVNWalqsasVNWYlaoa8z+ZurSxvfo7bQAAAABJRU5ErkJggg==",
+      "updatedAt": "2026-11-21T18:40:34.294Z",
+      "aiScanHistory": [
+        {
+          "scanId": "AIS-29C3CA",
+          "model": "gemini-3.5-flash-lite",
+          "inspectorId": "INS-1001",
+          "scannedAt": "2026-11-21T18:40:34.294Z",
+          "fields": [
+            {
+              "id": "responsible-party",
+              "value": "Distributed by B'Cuz Snacks, Lakewood, NJ 08701",
+              "readabilityStatus": "CLEAR",
+              "notes": "Responsible party name and address are clearly visible at the bottom.",
+              "label": "Manufacturer / packer / importer"
+            },
+            {
+              "id": "country-origin",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Country of origin is not visible on the label.",
+              "label": "Country of origin"
+            },
+            {
+              "id": "generic-name",
+              "value": "strawberry-mallow granola bites",
+              "readabilityStatus": "CLEAR",
+              "notes": "Generic name/product description is clearly visible.",
+              "label": "Generic name of the commodity"
+            },
+            {
+              "id": "net-quantity",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Net quantity statement is not visible in the provided photo.",
+              "label": "Net quantity"
+            },
+            {
+              "id": "manufacturing-date",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Manufacturing date is not visible on the package.",
+              "label": "Manufacturing / packing / import date"
+            },
+            {
+              "id": "best-before",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Best before or use by date is not visible on the label.",
+              "label": "Best before / use by date"
+            },
+            {
+              "id": "mrp",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Maximum retail price (MRP) is not visible.",
+              "label": "Maximum retail price (MRP)"
+            },
+            {
+              "id": "unit-sale-price",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Unit sale price is not visible on the package.",
+              "label": "Unit sale price"
+            },
+            {
+              "id": "consumer-care",
+              "value": "bcuzsnacks.com info@bcuzsnacks.com",
+              "readabilityStatus": "CLEAR",
+              "notes": "Website and email contact info are visible at the bottom.",
+              "label": "Consumer care details"
+            },
+            {
+              "id": "clarity",
+              "value": "Good overall legibility for visible text, though several mandatory declarations are missing.",
+              "readabilityStatus": "CLEAR",
+              "notes": "Text is sharp and easy to read where present.",
+              "label": "Clarity and legibility of declarations"
+            }
+          ]
+        }
+      ],
+      "aiResults": {
+        "scanId": "AIS-29C3CA",
+        "model": "gemini-3.5-flash-lite",
+        "inspectorId": "INS-1001",
+        "scannedAt": "2026-11-21T18:40:34.294Z",
+        "fields": [
+          {
+            "id": "responsible-party",
+            "value": "Distributed by B'Cuz Snacks, Lakewood, NJ 08701",
+            "readabilityStatus": "CLEAR",
+            "notes": "Responsible party name and address are clearly visible at the bottom.",
+            "label": "Manufacturer / packer / importer"
+          },
+          {
+            "id": "country-origin",
+            "value": "",
+            "readabilityStatus": "NOT_FOUND",
+            "notes": "Country of origin is not visible on the label.",
+            "label": "Country of origin"
+          },
+          {
+            "id": "generic-name",
+            "value": "strawberry-mallow granola bites",
+            "readabilityStatus": "CLEAR",
+            "notes": "Generic name/product description is clearly visible.",
+            "label": "Generic name of the commodity"
+          },
+          {
+            "id": "net-quantity",
+            "value": "",
+            "readabilityStatus": "NOT_FOUND",
+            "notes": "Net quantity statement is not visible in the provided photo.",
+            "label": "Net quantity"
+          },
+          {
+            "id": "manufacturing-date",
+            "value": "",
+            "readabilityStatus": "NOT_FOUND",
+            "notes": "Manufacturing date is not visible on the package.",
+            "label": "Manufacturing / packing / import date"
+          },
+          {
+            "id": "best-before",
+            "value": "",
+            "readabilityStatus": "NOT_FOUND",
+            "notes": "Best before or use by date is not visible on the label.",
+            "label": "Best before / use by date"
+          },
+          {
+            "id": "mrp",
+            "value": "",
+            "readabilityStatus": "NOT_FOUND",
+            "notes": "Maximum retail price (MRP) is not visible.",
+            "label": "Maximum retail price (MRP)"
+          },
+          {
+            "id": "unit-sale-price",
+            "value": "",
+            "readabilityStatus": "NOT_FOUND",
+            "notes": "Unit sale price is not visible on the package.",
+            "label": "Unit sale price"
+          },
+          {
+            "id": "consumer-care",
+            "value": "bcuzsnacks.com info@bcuzsnacks.com",
+            "readabilityStatus": "CLEAR",
+            "notes": "Website and email contact info are visible at the bottom.",
+            "label": "Consumer care details"
+          },
+          {
+            "id": "clarity",
+            "value": "Good overall legibility for visible text, though several mandatory declarations are missing.",
+            "readabilityStatus": "CLEAR",
+            "notes": "Text is sharp and easy to read where present.",
+            "label": "Clarity and legibility of declarations"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VIS-1F9165",
+      "shopId": "SHP-2001",
+      "inspectorId": "INS-1001",
+      "date": "2026-11-21T12:30:41.812Z",
+      "status": "draft",
+      "violations": 0,
+      "summary": "Draft inspection",
+      "remarks": "",
+      "declarations": [
+        {
+          "id": "responsible-party",
+          "label": "Manufacturer / packer / importer",
+          "status": "Needs Review"
+        },
+        {
+          "id": "country-origin",
+          "label": "Country of origin",
+          "status": "Needs Review"
+        },
+        {
+          "id": "generic-name",
+          "label": "Generic name of the commodity",
+          "status": "Needs Review"
+        },
+        {
+          "id": "net-quantity",
+          "label": "Net quantity",
+          "status": "Needs Review"
+        },
+        {
+          "id": "manufacturing-date",
+          "label": "Manufacturing / packing / import date",
+          "status": "Needs Review"
+        },
+        {
+          "id": "best-before",
+          "label": "Best before / use by date",
+          "status": "Needs Review"
+        },
+        {
+          "id": "mrp",
+          "label": "Maximum retail price (MRP)",
+          "status": "Needs Review"
+        },
+        {
+          "id": "unit-sale-price",
+          "label": "Unit sale price",
+          "status": "Needs Review"
+        },
+        {
+          "id": "consumer-care",
+          "label": "Consumer care details",
+          "status": "Needs Review"
+        },
+        {
+          "id": "clarity",
+          "label": "Clarity and legibility of declarations",
+          "status": "Needs Review"
+        }
+      ],
+      "photos": [],
+      "qrToken": "05F6LzqIA-oXAU0osi50ZpbXhiy5rTkl",
+      "qrExpiresAt": "2026-11-21T20:30:41.813Z",
+      "qrCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAADcCAYAAAAbWs+BAAAAAklEQVR4AewaftIAAAgwSURBVO3BQXIcsBEEwS4E///lMs8wDlBgOZTszsRvqaoRK1U1ZqWqxqxU1ZiVqhqzUlVjVqpqzEpVjVmpqjErVTVmparGfOUPAPkbqdkB+U1qXgB5pebTgNxScwPIiZodkL+RmhsrVTVmparGrFTVmJWqGrNSVWO+8gFqJgC5peYEyL9MzS0gN9T8JjWv1EwA8mKlqsasVNWYlaoas1JVY77yQ4C8UPOb1JwA2am5BWSn5gWQF0BeqHkB5ETNCyAv1HzaSlWNWamqMStVNWalqsZ85X8UkClAdmpeqHml5tOA7ICcqNkB2an5f7FSVWNWqmrMSlWNWamqMStVNeYr/2fU7ID8y9TcArJTcwJkp+bTgJyo+V+zUlVjVqpqzEpVjVmpqjFf+SFq/hVqfhOQnZoTILfU3AByouYGkFtqdkB+gpq/zUpVjVmpqjErVTVmparGfOUDgPzLgOzU3FKzA3KiZgfkhZoTIDs1OyC3gOzUnACZAuRfsFJVY1aqasxKVY1ZqaoxK1U15it/QE39NyA7NSdAbgD5bUBeqPk0Nf+ylaoas1JVY1aqasxKVY35yh8AcqLmBZCdmh2QV0AmADlR8wLIDsiJmhdqdkA+Tc0JkClqbgA5UXNjparGrFTVmJWqGrNSVWNWqmoMfsslID9BzQ7ITs0rIC/U7IDcUrMDckvNDsgLNSdAdmpuAfk0NbeAfJqaFytVNWalqsasVNWYlaoag99yCciJmhdAdmp2QE7U7IBMUfMCyAs1J0B+k5odkFtqdkBeqDkBslPzaStVNWalqsasVNWYlaoa85UPALJT8wLITs0rNTeAnKjZAbmlZqdmB+SVmh2QnZr6b0B2al6sVNWYlaoas1JVY1aqasxKVY3Bb/kBQF6o2QE5UXMLyA01J0B2anZA/l+oOQGyU7MD8hPU3ALyQs2Nlaoas1JVY1aqasxKVY3Bb7kE5ETNDSAnal4AuaXmBZDfpGYKkJ2aF0BuqXkB5JaaCStVNWalqsasVNWYlaoag9/yFwJyS80tIP8CNSdAdmpOgHyamhdAdmpOgOzUvADyQs2Llaoas1JVY1aqasxKVY1Zqaox+C2XgNxScwvIDTW3gJyo2QF5oWYH5ETNDshOzS0gJ2p2QHZqbgHZqZkC5IWaEyA7NZ+2UlVjVqpqzEpVjVmpqjFf+QA1OyCfBuREzU7NCZBPA7JTcwLk09ScANmp+U1ApqjZAXkB5ETNjZWqGrNSVWNWqmrMSlWNwW+5BOSWmh2QF2p+ApAXaqYAuaXmBpBbanZAfoKaF0A+Tc2Llaoas1JVY1aqasxKVY1ZqaoxX/kANZ+mZgfklZqdmltAdkBeqNkBOVGzA/JCzQmQF2p2QG4B2am5peZvs1JVY1aqasxKVY1Zqaox+C2XgExRcwvIp6m5BWSKmh2Q36TmBMhOzQ7IiZodkBM1L4DcUPNiparGrFTVmJWqGrNSVWNWqmrMV/6AmltAPg3IiZpbQH6Tmh2QW0B2ak6AvFDzaUB2ak6A3AKyU7MDcqJmwkpVjVmpqjErVTVmparG4LdcAvJCzQmQnZopQP42an4CkBdqXgC5peYFkJ2aF0BO1NxYqaoxK1U1ZqWqxqxU1Rj8lktApqjZATlRswNyS80OyImaHZApam4B2am5BeSGmltA/hVqPm2lqsasVNWYlaoas1JVY1aqasxXPkDNDsinqTkBslNzC8gtIDfUnADZqdkBOQHyaUBO1OyA3ALyQs0tIP+Claoas1JVY1aqasxKVY35ygcAuaHmFpBbanZATtTs1OyAnKiZoOYEyE7NTwCyU3NLzQ7ICyAnam4A+U0rVTVmparGrFTVmJWqGoPfcgnIiZpPA7JT8wrITs2nATlRswOyU3MLyAs1L4CcqLkB5JaaEyA31JwA2an5tJWqGrNSVWNWqmrMSlWNWamqMV/5A2puAXmhZgfkRM0OyImaHZCdmhMgOzWfBuSWmhMgN4DcUrNTcwvIFDU7IL9pparGrFTVmJWqGrNSVWO+8kPUvACyU3MC5BaQnZrfpGYH5JWaHZCdmr+Rmk9TcwLkBpATNTdWqmrMSlWNWamqMStVNeYrfwDIT1BzA8grNTsgOzW3gOzUnADZqdmpuQVkCpCdmhMgOzU7ICdAXgDZqTlRM2GlqsasVNWYlaoas1JVY1aqasxX/oCaKWpeADkBcgPIiZodkFtqdkBeqHkB5CeoeaHmBZBbQHZqPm2lqsasVNWYlaoas1JVY77yB4D8jdS8ULMDcgLkBZAbak6AvADyQs1vAnKi5gaQEzU31LxYqaoxK1U1ZqWqxqxU1ZiVqhrzlQ9QMwHILTVT1OyAnKh5oeYWkBtqToC8ALJT80LNTwCyU/NpK1U1ZqWqxqxU1ZiVqhrzlR8C5IWaF0BO1HwakBdAdmpuAbml5paa3wTk09ScALkB5ETNjZWqGrNSVWNWqmrMSlWN+cr/KDUnQHZqbqnZAdmpuaXmFpBbanZAXqjZATlRc0PNCZAXam6pmbBSVWNWqmrMSlWNWamqMStVNeYr9UeA7NTsgNxSM0XNLSA7IDs1v03NCyA7NTs1L1aqasxKVY1ZqaoxK1U15is/RM2/AshOzQs1J0B2QG6p2QE5AXJDzd9IzS0gN9TcArJT82KlqsasVNWYlaoas1JVY/BbLgH5G6nZAfkbqdkBeaHmFpBbal4A2am5BeSWmhtATtTsgNxSc2OlqsasVNWYlaoas1JVY1aqagx+S1WNWKmqMStVNWalqsasVNWYlaoas1JVY1aqasxKVY1Zqaox/wFttqK6bjQrNAAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "VIS-1A3A3A",
+      "shopId": "SHP-2001",
+      "inspectorId": "INS-1001",
+      "date": "2026-11-21T11:52:27.848Z",
+      "status": "draft",
+      "violations": 0,
+      "summary": "Draft inspection",
+      "remarks": "",
+      "declarations": [
+        {
+          "id": "responsible-party",
+          "label": "Manufacturer / packer / importer",
+          "status": "Needs Review"
+        },
+        {
+          "id": "country-origin",
+          "label": "Country of origin",
+          "status": "Needs Review"
+        },
+        {
+          "id": "generic-name",
+          "label": "Generic name of the commodity",
+          "status": "Needs Review"
+        },
+        {
+          "id": "net-quantity",
+          "label": "Net quantity",
+          "status": "Needs Review"
+        },
+        {
+          "id": "manufacturing-date",
+          "label": "Manufacturing / packing / import date",
+          "status": "Needs Review"
+        },
+        {
+          "id": "best-before",
+          "label": "Best before / use by date",
+          "status": "Needs Review"
+        },
+        {
+          "id": "mrp",
+          "label": "Maximum retail price (MRP)",
+          "status": "Needs Review"
+        },
+        {
+          "id": "unit-sale-price",
+          "label": "Unit sale price",
+          "status": "Needs Review"
+        },
+        {
+          "id": "consumer-care",
+          "label": "Consumer care details",
+          "status": "Needs Review"
+        },
+        {
+          "id": "clarity",
+          "label": "Clarity and legibility of declarations",
+          "status": "Needs Review"
+        }
+      ],
+      "photos": [],
+      "qrToken": "MoZszNWD2TpbJN40sdREfvMAuEXgNKLn",
+      "qrExpiresAt": "2026-11-21T19:52:27.848Z",
+      "qrCode": "data:image/png;base64,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"
+    },
+    {
+      "id": "VIS-C4A256",
+      "shopId": "SHP-2001",
+      "inspectorId": "INS-1001",
+      "date": "2026-11-21T11:24:19.640Z",
+      "status": "completed",
+      "violations": 0,
+      "summary": "Inspection submitted.",
+      "remarks": "",
+      "declarations": [
+        {
+          "id": "responsible-party",
+          "label": "Manufacturer / packer / importer",
+          "status": "Needs Review"
+        },
+        {
+          "id": "country-origin",
+          "label": "Country of origin",
+          "status": "Needs Review"
+        },
+        {
+          "id": "generic-name",
+          "label": "Generic name of the commodity",
+          "status": "Needs Review"
+        },
+        {
+          "id": "net-quantity",
+          "label": "Net quantity",
+          "status": "Needs Review"
+        },
+        {
+          "id": "manufacturing-date",
+          "label": "Manufacturing / packing / import date",
+          "status": "Needs Review"
+        },
+        {
+          "id": "best-before",
+          "label": "Best before / use by date",
+          "status": "Needs Review"
+        },
+        {
+          "id": "mrp",
+          "label": "Maximum retail price (MRP)",
+          "status": "Needs Review"
+        },
+        {
+          "id": "unit-sale-price",
+          "label": "Unit sale price",
+          "status": "Needs Review"
+        },
+        {
+          "id": "consumer-care",
+          "label": "Consumer care details",
+          "status": "Needs Review"
+        },
+        {
+          "id": "clarity",
+          "label": "Clarity and legibility of declarations",
+          "status": "Needs Review"
+        }
+      ],
+      "photos": [
+        {
+          "filename": "VIS-C4A256-7c1876fc.jpg",
+          "url": "/uploads/VIS-C4A256-7c1876fc.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ],
+      "qrToken": "VD3T-iIUlTS4HPyLYKLpvuLWY4K1bP2j",
+      "qrExpiresAt": "2026-11-21T19:24:19.641Z",
+      "qrCode": "data:image/png;base64,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",
+      "completedAt": "2026-11-21T11:24:56.581Z"
+    },
+    {
+      "id": "VIS-1572C4",
+      "shopId": "SHP-2001",
+      "inspectorId": "INS-1001",
+      "date": "2026-11-21T11:16:07.078Z",
+      "status": "draft",
+      "violations": 0,
+      "summary": "Draft inspection",
+      "remarks": "",
+      "declarations": [
+        {
+          "id": "responsible-party",
+          "label": "Manufacturer / packer / importer",
+          "status": "Needs Review"
+        },
+        {
+          "id": "country-origin",
+          "label": "Country of origin",
+          "status": "Needs Review"
+        },
+        {
+          "id": "generic-name",
+          "label": "Generic name of the commodity",
+          "status": "Needs Review"
+        },
+        {
+          "id": "net-quantity",
+          "label": "Net quantity",
+          "status": "Needs Review"
+        },
+        {
+          "id": "manufacturing-date",
+          "label": "Manufacturing / packing / import date",
+          "status": "Needs Review"
+        },
+        {
+          "id": "best-before",
+          "label": "Best before / use by date",
+          "status": "Needs Review"
+        },
+        {
+          "id": "mrp",
+          "label": "Maximum retail price (MRP)",
+          "status": "Needs Review"
+        },
+        {
+          "id": "unit-sale-price",
+          "label": "Unit sale price",
+          "status": "Needs Review"
+        },
+        {
+          "id": "consumer-care",
+          "label": "Consumer care details",
+          "status": "Needs Review"
+        },
+        {
+          "id": "clarity",
+          "label": "Clarity and legibility of declarations",
+          "status": "Needs Review"
+        }
+      ],
+      "photos": [
+        {
+          "filename": "VIS-1572C4-8bbb47cd.jpg",
+          "url": "/uploads/VIS-1572C4-8bbb47cd.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "filename": "VIS-1572C4-dec8b769.jpg",
+          "url": "/uploads/VIS-1572C4-dec8b769.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ],
+      "qrToken": "laoHzVMhp5juNx0Yug82Vu3_KA8tC6f3",
+      "qrExpiresAt": "2026-11-21T19:16:07.078Z",
+      "qrCode": "data:image/png;base64,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",
+      "updatedAt": "2026-11-21T16:35:15.407Z",
+      "aiScanHistory": [
+        {
+          "scanId": "AIS-F81351",
+          "model": "gemini-3.5-flash-lite",
+          "inspectorId": "INS-1001",
+          "scannedAt": "2026-11-21T16:27:19.412Z",
+          "fields": [
+            {
+              "id": "responsible-party",
+              "value": "Distributed by B'Cuz Snacks, Lakewood, NJ 08701",
+              "readabilityStatus": "CLEAR",
+              "notes": "Visible at the bottom of the package.",
+              "label": "Manufacturer / packer / importer"
+            },
+            {
+              "id": "country-origin",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Country of origin is not visible on the package.",
+              "label": "Country of origin"
+            },
+            {
+              "id": "generic-name",
+              "value": "strawberry-mallow granola bites",
+              "readabilityStatus": "CLEAR",
+              "notes": "Visible above the nutrition facts panel.",
+              "label": "Generic name of the commodity"
+            },
+            {
+              "id": "net-quantity",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Net quantity is not visible on this side of the package.",
+              "label": "Net quantity"
+            },
+            {
+              "id": "manufacturing-date",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Manufacturing date is not visible.",
+              "label": "Manufacturing / packing / import date"
+            },
+            {
+              "id": "best-before",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Best before date is not visible.",
+              "label": "Best before / use by date"
+            },
+            {
+              "id": "mrp",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "MRP is not visible.",
+              "label": "Maximum retail price (MRP)"
+            },
+            {
+              "id": "unit-sale-price",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Unit sale price is not visible.",
+              "label": "Unit sale price"
+            },
+            {
+              "id": "consumer-care",
+              "value": "bcuzsnacks.com info@bcuzsnacks.com",
+              "readabilityStatus": "CLEAR",
+              "notes": "Visible at the bottom of the package.",
+              "label": "Consumer care details"
+            },
+            {
+              "id": "clarity",
+              "value": "Clear",
+              "readabilityStatus": "CLEAR",
+              "notes": "The visible text declarations are generally legible.",
+              "label": "Clarity and legibility of declarations"
+            }
+          ]
+        },
+        {
+          "scanId": "AIS-D018F9",
+          "model": "gemini-3.5-flash-lite",
+          "inspectorId": "INS-1001",
+          "scannedAt": "2026-11-21T16:34:49.126Z",
+          "fields": [
+            {
+              "id": "responsible-party",
+              "value": "PEPSICO INDIA HOLDINGS PVT. LTD.",
+              "readabilityStatus": "CLEAR",
+              "notes": "Found on the second package image under Mfg. & Mkt. by.",
+              "label": "Manufacturer / packer / importer"
+            },
+            {
+              "id": "country-origin",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Country of origin is not visible on either package.",
+              "label": "Country of origin"
+            },
+            {
+              "id": "generic-name",
+              "value": "POTATO CHIPS",
+              "readabilityStatus": "CLEAR",
+              "notes": "Visible in the ingredient list/description area on the second package image.",
+              "label": "Generic name of the commodity"
+            },
+            {
+              "id": "net-quantity",
+              "value": "56 g",
+              "readabilityStatus": "CLEAR",
+              "notes": "Visible near the bottom left of the second image.",
+              "label": "Net quantity"
+            },
+            {
+              "id": "manufacturing-date",
+              "value": "01/11/26",
+              "readabilityStatus": "CLEAR",
+              "notes": "Visible on the second image under batch/date line.",
+              "label": "Manufacturing / packing / import date"
+            },
+            {
+              "id": "best-before",
+              "value": "31/03/27",
+              "readabilityStatus": "CLEAR",
+              "notes": "Visible on the second image next to manufacturing date.",
+              "label": "Best before / use by date"
+            },
+            {
+              "id": "mrp",
+              "value": "Rs. 25/- (INCL. OF ALL TAXES)",
+              "readabilityStatus": "CLEAR",
+              "notes": "Visible on the second image.",
+              "label": "Maximum retail price (MRP)"
+            },
+            {
+              "id": "unit-sale-price",
+              "value": "Rs. 0.43/- PER g",
+              "readabilityStatus": "CLEAR",
+              "notes": "Visible on the second image below MRP.",
+              "label": "Unit sale price"
+            },
+            {
+              "id": "consumer-care",
+              "value": "For Mkt. Address, scan Barcode via Smart Consumer App. For Manufacturer's Lic. No., see first two characters of batch no. and see below",
+              "readabilityStatus": "CLEAR",
+              "notes": "Consumer care/feedback details visible on the second image.",
+              "label": "Consumer care details"
+            },
+            {
+              "id": "clarity",
+              "value": "Clear",
+              "readabilityStatus": "CLEAR",
+              "notes": "The declarations on the packaging are legible and readable.",
+              "label": "Clarity and legibility of declarations"
+            }
+          ]
+        },
+        {
+          "scanId": "AIS-7C2A7C",
+          "model": "gemini-3.5-flash-lite",
+          "inspectorId": "INS-1001",
+          "scannedAt": "2026-11-21T16:35:15.407Z",
+          "fields": [
+            {
+              "id": "responsible-party",
+              "value": "PEPSICO INDIA HOLDINGS PVT. LTD.",
+              "readabilityStatus": "CLEAR",
+              "notes": "Found on the second package image",
+              "label": "Manufacturer / packer / importer"
+            },
+            {
+              "id": "country-origin",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Not visible on the provided labels",
+              "label": "Country of origin"
+            },
+            {
+              "id": "generic-name",
+              "value": "POTATO CHIPS",
+              "readabilityStatus": "CLEAR",
+              "notes": "Found in the ingredient list on the second image",
+              "label": "Generic name of the commodity"
+            },
+            {
+              "id": "net-quantity",
+              "value": "56 g",
+              "readabilityStatus": "CLEAR",
+              "notes": "Visible near the bottom left of the second image",
+              "label": "Net quantity"
+            },
+            {
+              "id": "manufacturing-date",
+              "value": "01/11/26",
+              "readabilityStatus": "CLEAR",
+              "notes": "Visible on the second image next to the batch details",
+              "label": "Manufacturing / packing / import date"
+            },
+            {
+              "id": "best-before",
+              "value": "31/03/27",
+              "readabilityStatus": "CLEAR",
+              "notes": "Visible on the second image next to the manufacturing date",
+              "label": "Best before / use by date"
+            },
+            {
+              "id": "mrp",
+              "value": "Rs. 25/- (INCL. OF ALL TAXES)",
+              "readabilityStatus": "CLEAR",
+              "notes": "Visible on the second image",
+              "label": "Maximum retail price (MRP)"
+            },
+            {
+              "id": "unit-sale-price",
+              "value": "Rs. 0.43/- PER g",
+              "readabilityStatus": "CLEAR",
+              "notes": "Visible near the bottom left of the second image",
+              "label": "Unit sale price"
+            },
+            {
+              "id": "consumer-care",
+              "value": "For Mkt. Address, scan Barcode via Smart Consumer App",
+              "readabilityStatus": "CLEAR",
+              "notes": "Visible on the second image",
+              "label": "Consumer care details"
+            },
+            {
+              "id": "clarity",
+              "value": "Declarations are generally legible across both packages",
+              "readabilityStatus": "CLEAR",
+              "notes": "Text is readable",
+              "label": "Clarity and legibility of declarations"
+            }
+          ]
+        }
+      ],
+      "aiResults": {
+        "scanId": "AIS-7C2A7C",
+        "model": "gemini-3.5-flash-lite",
+        "inspectorId": "INS-1001",
+        "scannedAt": "2026-11-21T16:35:15.407Z",
+        "fields": [
+          {
+            "id": "responsible-party",
+            "value": "PEPSICO INDIA HOLDINGS PVT. LTD.",
+            "readabilityStatus": "CLEAR",
+            "notes": "Found on the second package image",
+            "label": "Manufacturer / packer / importer"
+          },
+          {
+            "id": "country-origin",
+            "value": "",
+            "readabilityStatus": "NOT_FOUND",
+            "notes": "Not visible on the provided labels",
+            "label": "Country of origin"
+          },
+          {
+            "id": "generic-name",
+            "value": "POTATO CHIPS",
+            "readabilityStatus": "CLEAR",
+            "notes": "Found in the ingredient list on the second image",
+            "label": "Generic name of the commodity"
+          },
+          {
+            "id": "net-quantity",
+            "value": "56 g",
+            "readabilityStatus": "CLEAR",
+            "notes": "Visible near the bottom left of the second image",
+            "label": "Net quantity"
+          },
+          {
+            "id": "manufacturing-date",
+            "value": "01/11/26",
+            "readabilityStatus": "CLEAR",
+            "notes": "Visible on the second image next to the batch details",
+            "label": "Manufacturing / packing / import date"
+          },
+          {
+            "id": "best-before",
+            "value": "31/03/27",
+            "readabilityStatus": "CLEAR",
+            "notes": "Visible on the second image next to the manufacturing date",
+            "label": "Best before / use by date"
+          },
+          {
+            "id": "mrp",
+            "value": "Rs. 25/- (INCL. OF ALL TAXES)",
+            "readabilityStatus": "CLEAR",
+            "notes": "Visible on the second image",
+            "label": "Maximum retail price (MRP)"
+          },
+          {
+            "id": "unit-sale-price",
+            "value": "Rs. 0.43/- PER g",
+            "readabilityStatus": "CLEAR",
+            "notes": "Visible near the bottom left of the second image",
+            "label": "Unit sale price"
+          },
+          {
+            "id": "consumer-care",
+            "value": "For Mkt. Address, scan Barcode via Smart Consumer App",
+            "readabilityStatus": "CLEAR",
+            "notes": "Visible on the second image",
+            "label": "Consumer care details"
+          },
+          {
+            "id": "clarity",
+            "value": "Declarations are generally legible across both packages",
+            "readabilityStatus": "CLEAR",
+            "notes": "Text is readable",
+            "label": "Clarity and legibility of declarations"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VIS-2868FD",
+      "shopId": "SHP-2001",
+      "inspectorId": "INS-1001",
+      "date": "2026-11-21T11:03:56.339Z",
+      "status": "draft",
+      "violations": 0,
+      "summary": "Draft inspection",
+      "remarks": "",
+      "declarations": [
+        {
+          "id": "responsible-party",
+          "label": "Manufacturer / packer / importer",
+          "status": "Needs Review"
+        },
+        {
+          "id": "country-origin",
+          "label": "Country of origin",
+          "status": "Needs Review"
+        },
+        {
+          "id": "generic-name",
+          "label": "Generic name of the commodity",
+          "status": "Needs Review"
+        },
+        {
+          "id": "net-quantity",
+          "label": "Net quantity",
+          "status": "Needs Review"
+        },
+        {
+          "id": "manufacturing-date",
+          "label": "Manufacturing / packing / import date",
+          "status": "Needs Review"
+        },
+        {
+          "id": "best-before",
+          "label": "Best before / use by date",
+          "status": "Needs Review"
+        },
+        {
+          "id": "mrp",
+          "label": "Maximum retail price (MRP)",
+          "status": "Needs Review"
+        },
+        {
+          "id": "unit-sale-price",
+          "label": "Unit sale price",
+          "status": "Needs Review"
+        },
+        {
+          "id": "consumer-care",
+          "label": "Consumer care details",
+          "status": "Needs Review"
+        },
+        {
+          "id": "clarity",
+          "label": "Clarity and legibility of declarations",
+          "status": "Needs Review"
+        }
+      ],
+      "photos": [
+        {
+          "filename": "VIS-2868FD-5381e45d.jpg",
+          "url": "/uploads/VIS-2868FD-5381e45d.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ],
+      "qrToken": "cDCrHqQubUKDk-4RyYhlm5Fpmy_myJ-j",
+      "qrExpiresAt": "2026-11-21T19:03:56.339Z",
+      "qrCode": "data:image/png;base64,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",
+      "updatedAt": "2026-11-21T16:25:37.121Z",
+      "aiScanHistory": [
+        {
+          "scanId": "AIS-FE161F",
+          "model": "gemini-3.5-flash-lite",
+          "inspectorId": "INS-1001",
+          "scannedAt": "2026-11-21T16:20:34.237Z",
+          "fields": [
+            {
+              "id": "responsible-party",
+              "value": "Distributed by B'Cuz Snacks, Lakewood, NJ 08701",
+              "readabilityStatus": "CLEAR",
+              "notes": "Clearly visible at the bottom of the package.",
+              "label": "Manufacturer / packer / importer"
+            },
+            {
+              "id": "country-origin",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Country of origin is not visible on this label view.",
+              "label": "Country of origin"
+            },
+            {
+              "id": "generic-name",
+              "value": "strawberry-mallow granola bites",
+              "readabilityStatus": "CLEAR",
+              "notes": "Visible below the central product illustration.",
+              "label": "Generic name of the commodity"
+            },
+            {
+              "id": "net-quantity",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Net quantity declaration is not visible in the provided image.",
+              "label": "Net quantity"
+            },
+            {
+              "id": "manufacturing-date",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Manufacturing date is not present on this view.",
+              "label": "Manufacturing / packing / import date"
+            },
+            {
+              "id": "best-before",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Best before or use-by date is not visible.",
+              "label": "Best before / use by date"
+            },
+            {
+              "id": "mrp",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "MRP is not visible on the package.",
+              "label": "Maximum retail price (MRP)"
+            },
+            {
+              "id": "unit-sale-price",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Unit sale price is not present.",
+              "label": "Unit sale price"
+            },
+            {
+              "id": "consumer-care",
+              "value": "bcuzsnacks.com | comments or questions? info@bcuzsnacks.com",
+              "readabilityStatus": "CLEAR",
+              "notes": "Clearly visible near the bottom of the back panel.",
+              "label": "Consumer care details"
+            },
+            {
+              "id": "clarity",
+              "value": "Good",
+              "readabilityStatus": "CLEAR",
+              "notes": "Text is legible where present, though some required declarations are missing.",
+              "label": "Clarity and legibility of declarations"
+            }
+          ]
+        },
+        {
+          "scanId": "AIS-091290",
+          "model": "gemini-3.5-flash-lite",
+          "inspectorId": "INS-1001",
+          "scannedAt": "2026-11-21T16:25:37.121Z",
+          "fields": [
+            {
+              "id": "responsible-party",
+              "value": "Distributed by B'Cuz Snacks, Lakewood, NJ 08701",
+              "readabilityStatus": "CLEAR",
+              "notes": "Responsible party name and address are clearly visible at the bottom.",
+              "label": "Manufacturer / packer / importer"
+            },
+            {
+              "id": "country-origin",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Country of origin declaration is not visible on this label view.",
+              "label": "Country of origin"
+            },
+            {
+              "id": "generic-name",
+              "value": "strawberry-mallow granola bites",
+              "readabilityStatus": "CLEAR",
+              "notes": "Generic product name is clearly visible.",
+              "label": "Generic name of the commodity"
+            },
+            {
+              "id": "net-quantity",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Net quantity is not visible in the provided image.",
+              "label": "Net quantity"
+            },
+            {
+              "id": "manufacturing-date",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Manufacturing date is not visible on the package.",
+              "label": "Manufacturing / packing / import date"
+            },
+            {
+              "id": "best-before",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Best before or use by date is not visible on the package.",
+              "label": "Best before / use by date"
+            },
+            {
+              "id": "mrp",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "MRP is not visible on the package.",
+              "label": "Maximum retail price (MRP)"
+            },
+            {
+              "id": "unit-sale-price",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Unit sale price is not visible.",
+              "label": "Unit sale price"
+            },
+            {
+              "id": "consumer-care",
+              "value": "bcuzsnacks.com | comments or questions? info@bcuzsnacks.com",
+              "readabilityStatus": "CLEAR",
+              "notes": "Website and email contact details are clearly legible.",
+              "label": "Consumer care details"
+            },
+            {
+              "id": "clarity",
+              "value": "Legible overall for the visible text, though several mandatory declarations are missing.",
+              "readabilityStatus": "CLEAR",
+              "notes": "Text is sharp and easy to read where present.",
+              "label": "Clarity and legibility of declarations"
+            }
+          ]
+        }
+      ],
+      "aiResults": {
+        "scanId": "AIS-091290",
+        "model": "gemini-3.5-flash-lite",
+        "inspectorId": "INS-1001",
+        "scannedAt": "2026-11-21T16:25:37.121Z",
+        "fields": [
+          {
+            "id": "responsible-party",
+            "value": "Distributed by B'Cuz Snacks, Lakewood, NJ 08701",
+            "readabilityStatus": "CLEAR",
+            "notes": "Responsible party name and address are clearly visible at the bottom.",
+            "label": "Manufacturer / packer / importer"
+          },
+          {
+            "id": "country-origin",
+            "value": "",
+            "readabilityStatus": "NOT_FOUND",
+            "notes": "Country of origin declaration is not visible on this label view.",
+            "label": "Country of origin"
+          },
+          {
+            "id": "generic-name",
+            "value": "strawberry-mallow granola bites",
+            "readabilityStatus": "CLEAR",
+            "notes": "Generic product name is clearly visible.",
+            "label": "Generic name of the commodity"
+          },
+          {
+            "id": "net-quantity",
+            "value": "",
+            "readabilityStatus": "NOT_FOUND",
+            "notes": "Net quantity is not visible in the provided image.",
+            "label": "Net quantity"
+          },
+          {
+            "id": "manufacturing-date",
+            "value": "",
+            "readabilityStatus": "NOT_FOUND",
+            "notes": "Manufacturing date is not visible on the package.",
+            "label": "Manufacturing / packing / import date"
+          },
+          {
+            "id": "best-before",
+            "value": "",
+            "readabilityStatus": "NOT_FOUND",
+            "notes": "Best before or use by date is not visible on the package.",
+            "label": "Best before / use by date"
+          },
+          {
+            "id": "mrp",
+            "value": "",
+            "readabilityStatus": "NOT_FOUND",
+            "notes": "MRP is not visible on the package.",
+            "label": "Maximum retail price (MRP)"
+          },
+          {
+            "id": "unit-sale-price",
+            "value": "",
+            "readabilityStatus": "NOT_FOUND",
+            "notes": "Unit sale price is not visible.",
+            "label": "Unit sale price"
+          },
+          {
+            "id": "consumer-care",
+            "value": "bcuzsnacks.com | comments or questions? info@bcuzsnacks.com",
+            "readabilityStatus": "CLEAR",
+            "notes": "Website and email contact details are clearly legible.",
+            "label": "Consumer care details"
+          },
+          {
+            "id": "clarity",
+            "value": "Legible overall for the visible text, though several mandatory declarations are missing.",
+            "readabilityStatus": "CLEAR",
+            "notes": "Text is sharp and easy to read where present.",
+            "label": "Clarity and legibility of declarations"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VIS-B27B54",
+      "shopId": "SHP-2001",
+      "inspectorId": "INS-1001",
+      "date": "2026-11-21T10:43:42.379Z",
+      "status": "draft",
+      "violations": 0,
+      "summary": "Draft inspection",
+      "remarks": "",
+      "declarations": [
+        {
+          "id": "responsible-party",
+          "label": "Manufacturer / packer / importer",
+          "status": "Needs Review"
+        },
+        {
+          "id": "country-origin",
+          "label": "Country of origin",
+          "status": "Needs Review"
+        },
+        {
+          "id": "generic-name",
+          "label": "Generic name of the commodity",
+          "status": "Needs Review"
+        },
+        {
+          "id": "net-quantity",
+          "label": "Net quantity",
+          "status": "Needs Review"
+        },
+        {
+          "id": "manufacturing-date",
+          "label": "Manufacturing / packing / import date",
+          "status": "Needs Review"
+        },
+        {
+          "id": "best-before",
+          "label": "Best before / use by date",
+          "status": "Needs Review"
+        },
+        {
+          "id": "mrp",
+          "label": "Maximum retail price (MRP)",
+          "status": "Needs Review"
+        },
+        {
+          "id": "unit-sale-price",
+          "label": "Unit sale price",
+          "status": "Needs Review"
+        },
+        {
+          "id": "consumer-care",
+          "label": "Consumer care details",
+          "status": "Needs Review"
+        },
+        {
+          "id": "clarity",
+          "label": "Clarity and legibility of declarations",
+          "status": "Needs Review"
+        }
+      ],
+      "photos": [],
+      "qrToken": "YtUlTOimWnEL9U7LX6jfgiRdnzaAxiMT",
+      "qrExpiresAt": "2026-11-21T18:43:42.379Z",
+      "qrCode": "data:image/png;base64,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"
+    },
+    {
+      "id": "VIS-45A178",
+      "shopId": "SHP-2001",
+      "inspectorId": "INS-1001",
+      "date": "2026-11-21T10:40:20.530Z",
+      "status": "completed",
+      "violations": 1,
+      "summary": "1 declaration(s) marked non-compliant.",
+      "remarks": "",
+      "declarations": [
+        {
+          "id": "responsible-party",
+          "label": "Manufacturer / packer / importer",
+          "status": "Compliant"
+        },
+        {
+          "id": "country-origin",
+          "label": "Country of origin",
+          "status": "Non-compliant"
+        },
+        {
+          "id": "generic-name",
+          "label": "Generic name of the commodity",
+          "status": "Needs Review"
+        },
+        {
+          "id": "net-quantity",
+          "label": "Net quantity",
+          "status": "Needs Review"
+        },
+        {
+          "id": "manufacturing-date",
+          "label": "Manufacturing / packing / import date",
+          "status": "Needs Review"
+        },
+        {
+          "id": "best-before",
+          "label": "Best before / use by date",
+          "status": "Needs Review"
+        },
+        {
+          "id": "mrp",
+          "label": "Maximum retail price (MRP)",
+          "status": "Needs Review"
+        },
+        {
+          "id": "unit-sale-price",
+          "label": "Unit sale price",
+          "status": "Needs Review"
+        },
+        {
+          "id": "consumer-care",
+          "label": "Consumer care details",
+          "status": "Needs Review"
+        },
+        {
+          "id": "clarity",
+          "label": "Clarity and legibility of declarations",
+          "status": "Needs Review"
+        }
+      ],
+      "photos": [
+        {
+          "filename": "VIS-45A178-df1c6b64.jpg",
+          "url": "/uploads/VIS-45A178-df1c6b64.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ],
+      "qrToken": "3dUYAKxkUKnpoqN0Ui9ydf_SozknGMuT",
+      "qrExpiresAt": "2026-11-21T18:40:20.530Z",
+      "qrCode": "data:image/png;base64,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",
+      "completedAt": "2026-11-21T10:43:32.852Z"
+    },
+    {
+      "id": "VIS-B5050B",
+      "shopId": "SHP-2001",
+      "inspectorId": "INS-1001",
+      "date": "2026-11-21T10:40:01.513Z",
+      "status": "draft",
+      "violations": 0,
+      "summary": "Draft inspection",
+      "remarks": "",
+      "declarations": [
+        {
+          "id": "responsible-party",
+          "label": "Manufacturer / packer / importer",
+          "status": "Needs Review"
+        },
+        {
+          "id": "country-origin",
+          "label": "Country of origin",
+          "status": "Needs Review"
+        },
+        {
+          "id": "generic-name",
+          "label": "Generic name of the commodity",
+          "status": "Needs Review"
+        },
+        {
+          "id": "net-quantity",
+          "label": "Net quantity",
+          "status": "Needs Review"
+        },
+        {
+          "id": "manufacturing-date",
+          "label": "Manufacturing / packing / import date",
+          "status": "Needs Review"
+        },
+        {
+          "id": "best-before",
+          "label": "Best before / use by date",
+          "status": "Needs Review"
+        },
+        {
+          "id": "mrp",
+          "label": "Maximum retail price (MRP)",
+          "status": "Needs Review"
+        },
+        {
+          "id": "unit-sale-price",
+          "label": "Unit sale price",
+          "status": "Needs Review"
+        },
+        {
+          "id": "consumer-care",
+          "label": "Consumer care details",
+          "status": "Needs Review"
+        },
+        {
+          "id": "clarity",
+          "label": "Clarity and legibility of declarations",
+          "status": "Needs Review"
+        }
+      ],
+      "photos": [],
+      "qrToken": "Oa87CJWIl1ekbswCbG9hwjisP0gUun-Q",
+      "qrExpiresAt": "2026-11-21T18:40:01.513Z",
+      "qrCode": "data:image/png;base64,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"
+    },
+    {
+      "id": "VIS-3AA10F",
+      "shopId": "SHP-2001",
+      "inspectorId": "INS-1001",
+      "date": "2026-11-21T10:39:44.928Z",
+      "status": "draft",
+      "violations": 0,
+      "summary": "Draft inspection",
+      "remarks": "",
+      "declarations": [
+        {
+          "id": "responsible-party",
+          "label": "Manufacturer / packer / importer",
+          "status": "Needs Review"
+        },
+        {
+          "id": "country-origin",
+          "label": "Country of origin",
+          "status": "Needs Review"
+        },
+        {
+          "id": "generic-name",
+          "label": "Generic name of the commodity",
+          "status": "Needs Review"
+        },
+        {
+          "id": "net-quantity",
+          "label": "Net quantity",
+          "status": "Needs Review"
+        },
+        {
+          "id": "manufacturing-date",
+          "label": "Manufacturing / packing / import date",
+          "status": "Needs Review"
+        },
+        {
+          "id": "best-before",
+          "label": "Best before / use by date",
+          "status": "Needs Review"
+        },
+        {
+          "id": "mrp",
+          "label": "Maximum retail price (MRP)",
+          "status": "Needs Review"
+        },
+        {
+          "id": "unit-sale-price",
+          "label": "Unit sale price",
+          "status": "Needs Review"
+        },
+        {
+          "id": "consumer-care",
+          "label": "Consumer care details",
+          "status": "Needs Review"
+        },
+        {
+          "id": "clarity",
+          "label": "Clarity and legibility of declarations",
+          "status": "Needs Review"
+        }
+      ],
+      "photos": [
+        {
+          "filename": "VIS-3AA10F-78c6c6b1.jpg",
+          "url": "/uploads/VIS-3AA10F-78c6c6b1.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ],
+      "qrToken": "P9R7WN0AJCZ_WsjrRmHJ_KKY5lrQgqzh",
+      "qrExpiresAt": "2026-11-21T18:39:44.928Z",
+      "qrCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAADcCAYAAAAbWs+BAAAAAklEQVR4AewaftIAAAh1SURBVO3BQY4cOxYEwXCi7n9lH60JLihk1uvWnzDDP1JVI1aqasxKVY1ZqaoxK1U1ZqWqxqxU1ZiVqhqzUlVjVqpqzEpVjfnkLwD5jdTsgJyo2QHZqfkGIFPUvA3IFDU7IL+RmhsrVTVmparGrFTVmJWqGrNSVWM+eYGaCUBuqTkBslOzA/IbqbkF5Iaab1BzA8hTaiYAeWKlqsasVNWYlaoas1JVYz75EiBPqPmN1NwAcqJmB+QJIE8AuaXmCSA7Nd8A5Ak1b1upqjErVTVmparGrFTVmE/+o4DcArJTcwvITs0Tap5S8wSQHZBbanZq/p+tVNWYlaoas1JVY1aqasxKVY355P+MmhtAbqn5SWpuAdmpuaVmB+QWkFtq/mtWqmrMSlWNWamqMStVNeaTL1HzL1NzAmQH5JaaJ4DcUnMDyImat6nZAfkGNb/NSlWNWamqMStVNWalqsZ88gIg/zIgOzW31OyATFFzAmSnZgfkFpCdmhMgOzXfAORfsFJVY1aqasxKVY1ZqaoxK1U15pO/oOZfB+QJNU8A2anZAflpQG4AOVHzNjX/spWqGrNSVWNWqmrMSlWN+eQvADlR8wSQnZodkG9QswPyk9ScANkBOVHzhJodkLepOQEyRc0NICdqbqxU1ZiVqhqzUlVjVqpqzEpVjcE/8gVAdmpOgNxQ8w1ApqjZAbmlZgfkCTUnQG6ouQVkp+YWkBM1OyA7NbeA7NQ8sVJVY1aqasxKVY1Zqaoxn7wAyA0gt9TsgDyl5m1qdkC+AchOzQmQG0BO1OyA7ICcqJkCZKdmB+SWmretVNWYlaoas1JVY1aqaswnfwHILTVvU3MCZKfmBMgNNU+ouaVmB+QpNTsgOzUnQHZqfiM1OyA7NSdAdkB2ap5YqaoxK1U1ZqWqxqxU1ZiVqhqDf+QSkCfUnAB5Qs0OyBNqngByS80OyL9CzQmQn6RmB+REzQ7ILTU3VqpqzEpVjVmpqjErVTXmk7+g5gTITs0tNW9TcwLkBpATNTsgt9S8Tc03ANmp2QE5UbMDckvNE0B+m5WqGrNSVWNWqmrMSlWN+eQvADlRswOyU3MLyC01t9TsgOzUnAC5oeYEyA01J0BuAZmg5gTIDTUnQG6p2anZATkBslOzA/LESlWNWamqMStVNWalqsasVNUY/CNfAGSn5huA3FLzBJCdmh2QW2qeAHKiZgdkp+YWkCfUfAOQG2pOgNxQ88RKVY1ZqaoxK1U1ZqWqxnzyF4CcqJkA5CkgOzU7ICdq3gZkp+aWmhMgOzVvU3MCZAdkp2YKkFtq3rZSVWNWqmrMSlWNWamqMZ+8AMjbgOzUnAC5pWYHZKfmFpBbap4AckvNDSC31OyAnKjZAbkFZKfmRM0NICdqdkB2ap5YqaoxK1U1ZqWqxqxU1ZiVqhrzyV9QcwJkp+ZtQE7U3AKyU/M2NSdAdmp2QE7U7IA8oeYWkN8IyE7NTs0JkJ2at61U1ZiVqhqzUlVjVqpqzCeDgJyo2an5SUBO1OzUPAHkG4BMUHMC5Ak1OyAnanZAdmpuAdmpeWKlqsasVNWYlaoas1JVY1aqaswnfwHIE2pOgOzU7ICcqNkBOVHzNiA7NSdqdkB2am6pOQHyhJqfBOQWkJ2aHZBbat62UlVjVqpqzEpVjVmpqjGf/FJAdmpuqbkFZKfmlprfSM0OyC0gOzU7ICdqdkB2QE7UPAFkp+YWkJ2aJ1aqasxKVY1ZqaoxK1U15pMXqNkB2ak5UbMDsgPyDWp2QL5BzQ0gJ2puAdmpuQVkB2Sn5qcBuQHkJ61U1ZiVqhqzUlVjVqpqzEpVjfnkS9TcArJTcwvIT1LzhJodkBMgbwNyomYHZAfk/wWQEzU3VqpqzEpVjVmpqjErVTXmkxcAeULNDSBT1PwkNSdAdmq+AcgTanZAngByS80OyE9aqaoxK1U1ZqWqxqxU1ZhPvkTNDsgJkBtqToDs1NwC8jY1t4DcUrMD8oSaJ4CcAHmbmhMgb1PztpWqGrNSVWNWqmrMSlWNWamqMZ/8BTW3gOzUnADZqdkBuQXklpodkBM1OyBTgOzUnAC5AeREzQ7ITs0tIDs1J0B2ap5QcwJkwkpVjVmpqjErVTVmparGfPIlam6p2QHZqTkB8jY1J0DepmYH5ETNLTU7IDs1J0AmADlR8wSQnZongJyoubFSVWNWqmrMSlWNWamqMZ/8BSBPqDkBcgPILTUnQJ5QswOyAzIFyG8E5AkgbwNyombCSlWNWamqMStVNWalqsasVNUY/CP/QUBuqbkFZKfmCSBPqHkCyBNqngByouYJIDs1J0BuqHliparGrFTVmJWqGrNSVWM++QtAfiM1TwD5bdScAHkCyBNqfhKQEzU3gJyo2QF520pVjVmpqjErVTVmparGrFTVmE9eoGYCkFtqToA8oWYHZKfmBMgTam4BuaHmBMgTQHZqnlDzDUB2at62UlVjVqpqzEpVjVmpqjGffAmQJ9Q8AeSWmh2QfwWQW2puqbkB5ETNE0DepuYEyA7ILTU3VqpqzEpVjVmpqjErVTXmk/8oNSdAngCyU3NLzQ0gT6nZAbmlZgfkFpCdmp2aEyBPqNkBuaXmbStVNWalqsasVNWYlaoas1JVYz6prwByS81OzQmQJ9S8Tc1PU3NDzQmQHZCdmidWqmrMSlWNWamqMStVNeaTL1HzX6TmhpoTIDsgOzUnanZAToDcUHMC5G1AdmpuqTkBckPNiZodkLetVNWYlaoas1JVY1aqaswnLwDy2wC5BWSn5haQW2p2QG4B2am5BWQH5ETNE0B2ap4AcqJmApATNTdWqmrMSlWNWamqMStVNWalqsbgH6mqEStVNWalqsasVNWYlaoas1JVY1aqasxKVY1ZqaoxK1U15n81FacWJQMBWwAAAABJRU5ErkJggg==",
+      "updatedAt": "2026-11-21T18:11:33.074Z",
+      "aiScanHistory": [
+        {
+          "scanId": "AIS-D396C3",
+          "model": "gemini-3.5-flash-lite",
+          "inspectorId": "INS-1001",
+          "scannedAt": "2026-11-21T18:11:33.074Z",
+          "fields": [
+            {
+              "id": "responsible-party",
+              "value": "PEPSICO INDIA HOLDINGS PVT. LTD.",
+              "readabilityStatus": "CLEAR",
+              "notes": "Responsible party is clearly visible on the lower right.",
+              "label": "Manufacturer / packer / importer"
+            },
+            {
+              "id": "country-origin",
+              "value": "",
+              "readabilityStatus": "NOT_FOUND",
+              "notes": "Country of origin is not visible on the package.",
+              "label": "Country of origin"
+            },
+            {
+              "id": "generic-name",
+              "value": "POTATO CHIPS",
+              "readabilityStatus": "CLEAR",
+              "notes": "Generic name visible near the top ingredient section.",
+              "label": "Generic name of the commodity"
+            },
+            {
+              "id": "net-quantity",
+              "value": "56 g",
+              "readabilityStatus": "CLEAR",
+              "notes": "Net quantity clearly visible near the bottom left.",
+              "label": "Net quantity"
+            },
+            {
+              "id": "manufacturing-date",
+              "value": "01/11/26",
+              "readabilityStatus": "CLEAR",
+              "notes": "Manufacturing date is visible near the bottom left.",
+              "label": "Manufacturing / packing / import date"
+            },
+            {
+              "id": "best-before",
+              "value": "31/03/27",
+              "readabilityStatus": "CLEAR",
+              "notes": "Best before date is visible near the bottom left.",
+              "label": "Best before / use by date"
+            },
+            {
+              "id": "mrp",
+              "value": "Rs. 25/-",
+              "readabilityStatus": "CLEAR",
+              "notes": "MRP is clearly visible on the lower left.",
+              "label": "Maximum retail price (MRP)"
+            },
+            {
+              "id": "unit-sale-price",
+              "value": "Rs. 0.43/- PER g",
+              "readabilityStatus": "CLEAR",
+              "notes": "Unit sale price is visible near the bottom left.",
+              "label": "Unit sale price"
+            },
+            {
+              "id": "consumer-care",
+              "value": "",
+              "readabilityStatus": "PARTIALLY_VISIBLE",
+              "notes": "Mentions scan Barcode via Smart Consumer App, but full consumer care details/phone are partially cut off or indistinct.",
+              "label": "Consumer care details"
+            },
+            {
+              "id": "clarity",
+              "value": "Good",
+              "readabilityStatus": "CLEAR",
+              "notes": "Most mandatory declarations are clear and legible.",
+              "label": "Clarity and legibility of declarations"
+            }
+          ]
+        }
+      ],
+      "aiResults": {
+        "scanId": "AIS-D396C3",
+        "model": "gemini-3.5-flash-lite",
+        "inspectorId": "INS-1001",
+        "scannedAt": "2026-11-21T18:11:33.074Z",
+        "fields": [
+          {
+            "id": "responsible-party",
+            "value": "PEPSICO INDIA HOLDINGS PVT. LTD.",
+            "readabilityStatus": "CLEAR",
+            "notes": "Responsible party is clearly visible on the lower right.",
+            "label": "Manufacturer / packer / importer"
+          },
+          {
+            "id": "country-origin",
+            "value": "",
+            "readabilityStatus": "NOT_FOUND",
+            "notes": "Country of origin is not visible on the package.",
+            "label": "Country of origin"
+          },
+          {
+            "id": "generic-name",
+            "value": "POTATO CHIPS",
+            "readabilityStatus": "CLEAR",
+            "notes": "Generic name visible near the top ingredient section.",
+            "label": "Generic name of the commodity"
+          },
+          {
+            "id": "net-quantity",
+            "value": "56 g",
+            "readabilityStatus": "CLEAR",
+            "notes": "Net quantity clearly visible near the bottom left.",
+            "label": "Net quantity"
+          },
+          {
+            "id": "manufacturing-date",
+            "value": "01/11/26",
+            "readabilityStatus": "CLEAR",
+            "notes": "Manufacturing date is visible near the bottom left.",
+            "label": "Manufacturing / packing / import date"
+          },
+          {
+            "id": "best-before",
+            "value": "31/03/27",
+            "readabilityStatus": "CLEAR",
+            "notes": "Best before date is visible near the bottom left.",
+            "label": "Best before / use by date"
+          },
+          {
+            "id": "mrp",
+            "value": "Rs. 25/-",
+            "readabilityStatus": "CLEAR",
+            "notes": "MRP is clearly visible on the lower left.",
+            "label": "Maximum retail price (MRP)"
+          },
+          {
+            "id": "unit-sale-price",
+            "value": "Rs. 0.43/- PER g",
+            "readabilityStatus": "CLEAR",
+            "notes": "Unit sale price is visible near the bottom left.",
+            "label": "Unit sale price"
+          },
+          {
+            "id": "consumer-care",
+            "value": "",
+            "readabilityStatus": "PARTIALLY_VISIBLE",
+            "notes": "Mentions scan Barcode via Smart Consumer App, but full consumer care details/phone are partially cut off or indistinct.",
+            "label": "Consumer care details"
+          },
+          {
+            "id": "clarity",
+            "value": "Good",
+            "readabilityStatus": "CLEAR",
+            "notes": "Most mandatory declarations are clear and legible.",
+            "label": "Clarity and legibility of declarations"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VIS-3001",
+      "shopId": "SHP-2001",
+      "inspectorId": "INS-1001",
+      "date": "2026-11-18T10:30:00.000Z",
+      "status": "completed",
+      "violations": 1,
+      "summary": "Cold storage temperature needs follow-up."
+    },
+    {
+      "id": "VIS-3002",
+      "shopId": "SHP-2002",
+      "inspectorId": "INS-1002",
+      "date": "2026-11-20T09:15:00.000Z",
+      "status": "pending",
+      "violations": 0,
+      "summary": "Routine inspection scheduled."
+    },
+    {
+      "id": "VIS-3003",
+      "shopId": "SHP-2003",
+      "inspectorId": "INS-1001",
+      "date": "2026-11-15T12:00:00.000Z",
+      "status": "completed",
+      "violations": 0,
+      "summary": "All checked items were satisfactory."
+    }
+  ]
+}

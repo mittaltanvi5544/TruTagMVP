@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Inspector | TruTag</title><link rel="stylesheet" href="/style.css"><script src="/script.js" defer></script><script src="/inspector.js" defer></script></head>
+<body class="dashboard-page">
+<header class="site-header"><a class="brand" href="/" aria-label="TruTag home"><img class="brand-logo" src="/images/trutag-logo.png" alt="TruTag — Trusted Labels. Safer India."></a><nav class="portal-nav"><a href="/">Home</a><a href="/admin">Department Admin</a><a href="/business-owner">Business Owner</a></nav></header>
+<main class="dashboard-main">
+  <div class="page-heading"><div><p class="eyebrow">Field operations</p><h1>Inspector Portal</h1><p class="intro">Review your assigned shops and inspection history.</p></div><span class="demo-chip">DEMO DATA</span></div>
+  <section class="panel inspector-switch"><label for="inspector-actor-select">Demo inspector</label><select id="inspector-actor-select"></select><span id="inspector-meta" class="muted"></span></section>
+  <div id="inspector-status-notice" class="inspector-status-notice hidden" role="status"></div>
+  <section class="panel inspector-passport-panel"><div class="panel-heading"><div><h2>Inspector Passport</h2><p>Show your verified identity and current authorization as a scannable QR passport.</p></div><button class="button button-light" type="button" id="show-inspector-passport">Show My Inspector Passport</button></div></section>
+  <section class="panel"><div class="panel-heading"><div><h2>Assigned shops</h2><p>Start an inspection at an assigned location.</p></div></div><div id="assigned-shops" class="shop-grid"></div></section>
+  <section class="panel hidden" id="inspection-workspace">
+    <div class="panel-heading inspection-heading"><div><p class="eyebrow">Inspection form</p><h2 id="active-shop-name">Inspection</h2><p id="active-inspection-id" class="muted"></p></div><img id="inspection-qr" class="qr-image" alt="QR code for this inspection"></div>
+    <div id="inspection-context" class="inspection-context"></div>
+    <p class="qr-hint">The business owner can scan this QR code to verify your current assignment.</p>
+    <form id="inspection-edit-form" class="inspection-form">
+      <fieldset class="rule6-fieldset"><legend>Legal Metrology Rule 6 declarations</legend><p class="muted">Select each declaration status. Record a severity for non-compliant findings when it is known; unrecorded severity remains flagged for Admin review.</p><div id="rule6-list" class="rule6-list"></div></fieldset>
+      <label class="remarks-label">Inspector remarks<textarea name="remarks" rows="4" maxlength="5000" placeholder="Record observations and follow-up notes"></textarea></label>
+      <label class="photo-upload-label">Package-label photographs <span id="photo-count-hint">Up to 4 photos · JPEG, PNG or WebP · 5 MB each</span><input id="inspection-photos" type="file" accept="image/jpeg,image/png,image/webp" multiple></label>
+      <div id="inspection-photo-list" class="inspection-photo-list"></div>
+      <section class="gemini-scan-panel" aria-labelledby="gemini-scan-heading">
+        <div class="gemini-scan-heading"><div><h3 id="gemini-scan-heading">Gemini Vision label scan</h3><p>Extracts visible declaration text and readability only. Inspector review is required before findings are recorded.</p></div><button class="button button-light" type="button" id="scan-labels-with-gemini">Scan labels with Gemini</button></div>
+        <div id="gemini-scan-results" class="gemini-scan-results"><p class="muted">Upload package-label photos to scan. AI results will appear here for inspector review.</p></div>
+      </section>
+      <div class="inspection-actions"><button class="button button-light" type="button" id="inspection-back">← Back to Inspector Dashboard</button><span class="action-spacer"></span><button class="button button-light" type="button" id="save-inspection-draft">Save as Draft</button><button class="button" type="button" id="submit-inspection">Submit Inspection</button></div>
+    </form>
+  </section>
+  <section class="panel"><div class="panel-heading"><div><h2>Previous inspections</h2><p>Open a record to see its details.</p></div></div><div class="table-scroll"><table><thead><tr><th>Inspection</th><th>Date</th><th>Shop</th><th>Status</th><th>Violations</th><th></th></tr></thead><tbody id="inspector-history"></tbody></table></div></section>
+  <div class="toast" role="status" aria-live="polite"></div>
+</main><footer class="site-footer"><a href="/">← Back to TruTag home</a><span>Demonstration data only</span></footer>
+<dialog id="inspection-dialog" class="detail-dialog"><form method="dialog"><button class="dialog-close" aria-label="Close">×</button></form><div id="inspection-detail"></div></dialog>
+<dialog id="inspector-passport-dialog" class="passport-dialog" aria-labelledby="passport-dialog-title"><div class="passport-dialog-heading"><div><p class="eyebrow">TRUTAG IDENTITY</p><h2 id="passport-dialog-title">Inspector Passport</h2></div><button type="button" class="button button-light" id="close-inspector-passport">Close</button></div><div id="inspector-passport-content"></div></dialog>
+</body></html>

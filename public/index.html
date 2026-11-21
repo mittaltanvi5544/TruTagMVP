@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12304a">
+  <meta name="description" content="TruTag public service portal">
+  <title>TruTag | Public Service Portal</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="TruTag home">
+      <img class="brand-logo" src="/images/trutag-logo.png" alt="TruTag — Trusted Labels. Safer India.">
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="portal-nav">
+      <span>Portals</span><span aria-hidden="true">☰</span>
+    </button>
+    <nav class="portal-nav" id="portal-nav" aria-label="Portal navigation">
+      <a href="/admin">Admin Department</a>
+      <a href="/inspector">Inspector</a>
+      <a href="/business-owner">Business Owner</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">A connected approach to compliance</p>
+        <h1>Verify the Authority 
+<br><span>Track the Action<br><span> Build the Trust</span></h1>
+        <p class="intro">Welcome to TruTag, a shared workspace for department teams, field inspectors, and local businesses.</p>
+        <a class="primary-link" href="#portals">Explore the portals <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-outer"></div><div class="orbit orbit-inner"></div>
+        <div class="hub"><img class="hero-logo" src="/images/trutag-logo.png" alt=""></div>
+        <span class="orbit-point point-admin">A</span><span class="orbit-point point-inspector">I</span><span class="orbit-point point-business">B</span>
+      </div>
+    </section>
+
+    <section class="portals" id="portals" aria-labelledby="portals-heading">
+      <div class="section-heading">
+        <div><p class="eyebrow">Choose your workspace</p><h2 id="portals-heading">Select a portal</h2></div>
+        <span class="portal-count">03 PORTALS</span>
+      </div>
+      <div class="portal-grid">
+        <article class="portal-card" id="department-admin">
+          <div class="card-top"><span class="portal-icon admin-icon" aria-hidden="true">⌂</span><span class="card-number">01</span></div>
+          <p class="card-label">OVERSIGHT &amp; GOVERNANCE</p><h3>Admin Department</h3>
+          <p class="card-copy">A central workspace for program oversight, teams, and department settings.</p>
+          <a class="card-link" href="/admin">Department workspace <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="portal-card" id="inspector">
+          <div class="card-top"><span class="portal-icon inspector-icon" aria-hidden="true">◎</span><span class="card-number">02</span></div>
+          <p class="card-label">FIELD OPERATIONS</p><h3>Inspector</h3>
+          <p class="card-copy">A field workspace for shop visits, inspections, and compliance activity.</p>
+          <a class="card-link" href="/inspector">Inspector workspace <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="portal-card" id="business-owner">
+          <div class="card-top"><span class="portal-icon business-owner-icon" aria-hidden="true">▤</span><span class="card-number">03</span></div>
+          <p class="card-label">BUSINESS SERVICES</p><h3>Business Owner</h3>
+          <p class="card-copy">A business workspace for shop profiles and compliance information.</p>
+          <a class="card-link" href="/business-owner">Business Owner workspace <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <aside class="help-note">
+      <span class="help-icon" aria-hidden="true">i</span>
+      <p><strong>Getting started</strong><br>Choose the portal that matches your role. Portal access will be configured by your department.</p>
+    </aside>
+  </main>
+  <footer class="site-footer"><span>© <span data-year></span> TruTag Public Service Platform</span><span>Built for transparency &amp; trust</span></footer>
+</body>
+</html>
